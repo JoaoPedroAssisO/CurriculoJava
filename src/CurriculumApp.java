@@ -87,7 +87,7 @@ public class CurriculumApp {
         for (String contato : contatos) {
             JLabel contatoLabel = new JLabel(contato);
             contatoLabel.setFont(new Font("Arial", Font.PLAIN, 14));
-            contatoPanel.add(contatoLabel);
+            contatoPanel.add(contatoLabel); 
         }
 
        
